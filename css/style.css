@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6{
     padding-top: 130px;
 }
 
+.course-width, .students-width, .faq-width{
+    max-width: 500px;
+}
+
 /* Slider section custom CSS */
 .carousel-img{
     filter: brightness(50%);
@@ -37,9 +41,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Popular courses section start here  */
-.course-title{
-    max-width: 500px;
-}
 .learning-platform{
     background: #F4FAFD;
     padding: 7%;

@@ -120,8 +120,8 @@
         <section id="courses" class="section-gap">
             <div class="container">
                 <div class="d-flex flex-column justify-content-center align-items-center">
-                    <h1 class="page-title course-title text-center">Most Trending Courses</h1>
-                    <p class="course-title text-center text-black-50 pb-5">Explore our integrated online learning
+                    <h1 class="page-width course-title text-center">Most Trending Courses</h1>
+                    <p class="course-width text-center text-black-50 pb-5">Explore our integrated online learning
                         destination that
                         helps everyonegain the skills they need to compete successfully.
                     </p>
@@ -300,8 +300,8 @@
         <section id="success-students" class="section-gap">
             <div class="container">
                 <div>
-                    <h1 class="page-title course-title">Meet Our Successfull Students</h1>
-                    <p class="course-title text-black-50 pb-5">Check out some incredible Learning Hub successful
+                    <h1 class="students-width course-title">Meet Our Successfull Students</h1>
+                    <p class="students-title text-black-50 pb-5">Check out some incredible Learning Hub successful
                         students,
                         and get inspired by your fellow instructors! </p>
                 </div>
@@ -358,19 +358,18 @@
         <section class="section-gap">
             <div class="container">
                 <div class="d-flex flex-column justify-content-center align-items-center">
-                    <h1 class="course-title text-center">Frequently Asked Questions</h1>
-                    <p class="course-title text-center text-black-50 pb-5">Read all questions and answer below to get
+                    <h1 class="faq-width text-center fs-2">Frequently Asked Questions</h1>
+                    <p class="faq-width text-center text-black-50 pb-5">Read all questions and answer below to get
                         the basic idea about Learning Hub.
                     </p>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <div class="accordion w-75" id="accordionExample">
+                    <div class="accordion w-75 w-75" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button text-black fw-semibold" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">
-                                    Difference between CSS Grid and CSS Flexbox
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is the difference between CSS Grid and CSS Flexbox?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -388,18 +387,26 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Accordion Item #2
+                                    Tailwind CSS vs Bootstrap CSS Framework
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="accordion-body text-black-50">
+                                    Bootstrap is the most popular HTML, CSS, and JavaScript framework for
+                                    building responsive, mobile-first projects on the web. Tailwind CSS, on the
+                                    other hand, is the most popular utility-first CSS framework for fast UI
+                                    development.<br><br>
+
+                                    The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is
+                                    not a UI kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind
+                                    CSS doesnt have a default theme or built-in UI components. Instead, it comes
+                                    with predesigned widgets you can use to build your site from scratch.<br><br>
+
+                                    Bootstrap is known for its responsiveness, whereas proponents of Tailwind CSS
+                                    typically value the frameworks customizability. The best choice for you depends
+                                    on your priorities and project requirements, but lets talk about why Tailwind
+                                    CSS is quickly gaining popularity and more widespread use.
                                 </div>
                             </div>
                         </div>
@@ -407,18 +414,54 @@
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Accordion Item #3
+                                    What is CSS Box Model?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="accordion-body text-black-50">
+                                    The CSS box model is a container that contains multiple properties including
+                                    borders, margin, padding, and the content itself. It is used to create the design
+                                    and layout of web pages. It can be used as a toolkit for customizing the layout of
+                                    different elements. The web browser renders every element as a rectangular box
+                                    according to the CSS box model. Box-Model has multiple properties in CSS. Some of
+                                    them are given below:<br> <br>
+
+                                    <strong>content:</strong>This property is used to displays the text, images, etc,
+                                    that can be sized
+                                    using the width & height property.<br><br>
+                                    <strong>padding:</strong> This property is used to create space around the element,
+                                    inside any
+                                    defined border.<br><br>
+                                    <strong>border:</strong> This property is used to cover the content & any padding, &
+                                    also allows to
+                                    set the style, color, and width of the border.<br><br>
+                                    <strong>margin:</strong> This property is used to create space around the element
+                                    ie., around the
+                                    border area.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapsefour">
+                                    What is semantic tags?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body text-black-50">
+                                    Semantic HTML elements are those that clearly describe their meaning in a human- and
+                                    machine-readable way. <br> <br>
+
+                                    Elements such as header, footer and article are all considered semantic because they
+                                    accurately describe the purpose of the element and the type of content that is
+                                    inside them.<br>
+
+                                    <img class="img-fluid" src="images/semantic-tags.gif" alt="">
+
                                 </div>
                             </div>
                         </div>
@@ -428,8 +471,24 @@
         </section>
         <!-- Faq Section end here  -->
 
+        <!-- Company Logo section start here -->
+        <section class="section-gap d-none d-lg-block">
+            <div class="container">
+                <h1 class="text-center fs-2">Trusted by over 800+ companies</h1>
+                <div class="d-flex justify-content-center pt-4">
+                    <img class="img-fluid px-4" src="images/company/company-1.png" alt="">
+                    <img class="img-fluid px-4" src="images/company/company-2.png" alt="">
+                    <img class="img-fluid px-4" src="images/company/company-3.png" alt="">
+                    <img class="img-fluid px-4" src="images/company/company-4.png" alt="">
+                    <img class="img-fluid px-4" src="images/company/company-5.png" alt="">
+                    <img class="img-fluid px-4" src="images/company/company-6.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Company Logo section end here -->
 
     </main>
+    <!-- End Main Section  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>

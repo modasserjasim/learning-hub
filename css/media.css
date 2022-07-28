@@ -55,4 +55,7 @@
         overflow: hidden;
         text-overflow: ellipsis; 
     }
+    .accordion{
+        width: 100% !important;
+    }
 }
