@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6{
 }
 footer{
     margin-top: 130px;
-    height: 400px;
+    min-height: 380px;
 }
 
 .course-width, .students-width, .faq-width{
@@ -48,4 +48,23 @@ footer{
 .learning-platform{
     background: #F4FAFD;
     padding: 7%;
+}
+
+/* Footer  Section start  */
+.social ul li a i {
+    background-color: #4f4f4f;
+    color: #fff;
+    font-size: 23px;
+    line-height: 26px;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.social ul li a i:hover {
+    background-color: #fff;
+    color: #4f4f4f;
+    transition: 1s;
 }
