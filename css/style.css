@@ -1,52 +1,21 @@
 /* Google Font Integration  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
 
-/* Common CSS  */
+/* Default/Common CSS  */
 
 body{
-    font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-.primary-color{
-    color: #289BDE;
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
 }
-
-.primary-btn{
-    background-color: #289BDE;
-    color: #fff;
-    border: 1px solid #289BDE;
-    padding: 13px 33px;
-    border-radius: 5px;
-    transition: 0.5s;
-    font-size: 20px;
-    font-weight: 600;
+.page-title{
+    font-size: 45px;
+    line-height: 60px;  
+    font-weight: 600;                     
 }
-.primary-btn:hover{
-    background-color: #fff;
-    color: #289BDE;
-    border: 1px solid #289BDE;
-    padding: 13px 33px;
-    border-radius: 5px;
-    transition: 0.5s;
-}
-
-.primary-outline-btn{
-    background-color: #fff;
-    color: #289BDE;
-    border: 1px solid #289BDE;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 13px 33px;
-    border-radius: 5px;
-    transition: 0.5s;
-}
-.primary-outline-btn:hover{
-    background-color: #289BDE;
-    color: #fff;
-    border: 1px solid #289BDE;
-    padding: 13px 33px;
-    border-radius: 5px;
-    transition: 0.5s;
+.section-gap{
+    padding-top: 130px;
 }
 
 /* Slider section custom CSS */
@@ -54,7 +23,6 @@ body{
     filter: brightness(50%);
     object-fit: cover;
 }
-
 .carousel-caption {
     top: 22%;
     bottom: auto;
@@ -63,51 +31,16 @@ body{
     left: 25%;
 }
 .slider-h1{
-    font-weight: 600;
-    font-size: 65px;
+    font-size: 60px;
     line-height: 85px;
+    font-weight: 600;
 }
 
 /* Popular courses section start here  */
-.section-gap{
-    padding: 130px 0;
-}
 .course-title{
     max-width: 500px;
 }
-/* Media queries for the responsive  */
-@media screen and (max-width: 576px){
-    .slider-h1{
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .carousel-caption {
-        top: 20%;
-        right: 12%;
-        left: 12%;
-    }
-    .section-gap{
-        padding: 40px 0;
-    }
-    .course-thumb{
-        width: 100%;
-    }
-}
-@media screen and (min-width:577px) and (max-width: 992px){
-    .slider-h1{
-        font-size: 40px;
-        line-height: 50px;
-    }
-    .carousel-caption {
-        top: 10%;
-    }
-    .section-gap{
-        padding: 60px 0;
-    }
-}
-@media screen and (max-width: 992px){
-    .carousel-img {
-        object-fit: cover;
-        height: 400px;
-    }
+.learning-platform{
+    background: #F4FAFD;
+    padding: 7%;
 }

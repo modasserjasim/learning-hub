@@ -1,0 +1,58 @@
+/* Media queries for the responsive  */
+
+/* For Mobile Devices  */
+@media screen and (max-width: 576px){
+    .page-title{
+        font-size: 20px;
+        line-height: 30px;                       
+    }  
+    .slider-h1{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .carousel-caption {
+        top: 20%;
+        right: 12%;
+        left: 12%;
+    }
+    .section-gap{
+        padding-top: 40px;
+    }
+    .course-thumb{
+        width: 100%;
+    }
+}
+/* For Tablet Devices  */
+@media screen and (min-width:577px) and (max-width: 992px){
+    .page-title{
+        font-size: 26px;
+        line-height: 45px;                       
+    }  
+    .slider-h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .carousel-caption {
+        top: 10%;
+        right: 15%;
+        left: 15%;
+    }
+    .section-gap{
+        padding-top: 60px;
+    }
+    .learning-platform{
+        padding: 5%;
+    }
+}
+@media screen and (max-width: 992px){
+    .carousel-img {
+        object-fit: cover;
+        height: 400px;
+    }
+    .do-ellipsis{
+        white-space: nowrap; 
+        width: 250px;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+}
